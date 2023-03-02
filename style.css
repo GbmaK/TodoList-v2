@@ -1,0 +1,164 @@
+body {
+    background-color: #F2F5F6;
+}
+
+#mytasks {
+    text-align: center;
+    margin: 31px 508px 43px 476px;
+
+    font-family: 'Monda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 78px;
+    letter-spacing: 0.25em;
+
+    color: #000000;
+}
+
+.bloque {
+    display: block;
+}
+
+.contenido {
+    background-color: #F2F5F6;
+    position: relative;
+    height:  720px auto;
+    width:  1280px;
+    margin: auto;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#titulo {
+    border: none;
+    background-color: rgba(196, 196, 196, 1);
+    color: rgba(62, 59, 59, 1);
+    height: 35px;
+    width: 816px;
+
+    border-radius: 2px;
+    margin: 0px 230px 26px 234px;
+}
+
+#descripcion {
+    border: none;
+    background-color: rgba(196, 196, 196, 1);
+    color: rgba(62, 59, 59, 1);
+    height: 35px;
+    width: 816px;
+
+    border-radius: 2px;
+    margin: 0px 230px 26px 234px;
+}
+
+.button {
+    width: 290px;
+    height: 61px;
+    left: 500px;
+    top: 286px;
+    font-family: 'Monda';
+
+    border-radius: 25px;
+    border-style: none;
+
+    margin: 0px 490px 0px 500px;
+}
+
+.desactivado {
+    transition: 2s;
+    color: #606061;
+    color: rgb(52, 49, 49);
+    background:  rgba(196, 196, 196, 1);
+}
+
+.activado {
+    transition: 2s;
+    background: #424242;
+    color: #dbd6d6;
+}
+
+.button:hover {
+    transition: 2s;
+    background: #817b7b;
+}
+
+.tarea {
+    display: block;
+    width: 808px;
+    height: 64px;
+    margin: 0px 235px 34px 237px;
+}
+
+.borrar {
+    width: 30px;
+    height: 30px;
+    left: 986px;
+    top: 461px;
+    border-style: none;
+    background-color: #F2F5F6;
+    color: rgba(255, 0, 0, 0.524);
+    font-family: 'Monda';
+}
+
+.borrar:hover {
+    transition: 2s;
+    border-radius: 60px;
+    background-color: rgb(74, 67, 79);
+}
+
+.titulo {
+    font-family: 'Monda';
+    font-style: normal;
+    font-weight: 400;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+
+    color: #3E3B3B;
+}
+
+.linea {
+    width: 808px;
+    height: 0px;
+    left: 237px;
+    top: 411px;
+
+    border: 2px solid #3e3b3bbd;
+}
+
+.descripcion {
+    font-family: 'Monda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+
+    color: #3E3B3B;
+}
+
+.m {
+    font-family: 'Monda';
+}
+
+.error {
+    position: absolute;
+    background-color: rgba(231, 31, 31, 0.879);
+    color: rgba(62, 59, 59, 1);
+    height: 25px;
+    width: 350px;
+    align-self: center;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: 20px 0px 5px 0px;
+    text-align: center;
+    top: 10px;
+    border-radius: 2px;
+    margin: 0px 230px 26px 234px;
+
+    box-shadow: #000000 1px 1px 1px;
+}
